@@ -1,0 +1,19 @@
+{
+    "store.custom#landing": {
+        "blocks": [
+            "image#landingbanner",
+            "search-result-layout.customQuery"
+        ]
+    },
+    "search-result-layout.customQuery": {
+        "props": {
+            // "querySchema": {
+            //     "skusFilter": "FIRST_AVAILABLE",
+            //     "simulationBehavior": "skip"
+            // },
+            "maxItemsPerPage": 8,
+            "hideUnavailableItems": true,
+            "orderByField": "OrderByReleaseDateDESC"
+        }
+    }
+}
